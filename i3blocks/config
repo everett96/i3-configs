@@ -1,0 +1,30 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+separator = "      |      "
+interval = 5
+
+[arch]
+command=~/.config/i3blocks/arch_version.sh
+interval=3600
+
+[sys]
+command=~/.config/i3blocks/sys_usage.sh
+interval=5
+
+[volume]
+command=~/.config/i3blocks/volume.sh
+interval=10
+
+[date]
+command=~/.config/i3blocks/date.sh
+interval=60
+color=#00ff00
+
+[battery]
+command=~/.config/i3blocks/battery.sh
+interval=30
