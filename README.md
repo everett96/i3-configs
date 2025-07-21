@@ -53,4 +53,8 @@ These may already be installed if you installed with the `i3` desktop profile:
 - `ttf-nerd-fonts-symbols` or `ttf-nerd-fonts-symbols-mono` – Extended icons
 - `lxappearance` – GTK theme configurator
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ---
