@@ -1,6 +1,8 @@
 # i3-configs
 Various configuration files for i3 and i3blocks intended for Arch Linux systems. Scripts were designed with low power usage as a priority.
 
+![Screenshot](screenshot.png)
+
 ## Required Packages (for Arch Linux)
 
 These are the packages needed to run the i3blocks setup and scripts correctly on a fresh Arch Linux install using `archinstall` with i3 selected.
