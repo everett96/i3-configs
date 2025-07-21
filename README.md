@@ -22,6 +22,7 @@ These may already be installed if you installed with the `i3` desktop profile:
 - `pamixer` – CLI volume control
 - `pavucontrol` – Audio mixer GUI
 - `htop` – System monitor
+- `calcurse` – Terminal-based calendar
 - `procps-ng` – Provides `free` and other memory tools
 - `coreutils` – Shell utilities (e.g., `date`)
 - `bash` – Required for running shell scripts
