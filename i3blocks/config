@@ -1,30 +1,51 @@
 # i3blocks configuration file
-#
-# The i3blocks man page describes the usage of the binary,
-# and its website describes the configuration:
-#
-#     https://vivien.github.io/i3blocks
+# Documentation:
+# https://manpages.debian.org/testing/i3blocks/i3blocks.1.en.html
+# https://vivien.github.io/i3blocks
 
-separator = "      |      "
-interval = 5
+# Global settings
+separator=false
+separator_block_width=8
+interval=5   # Default interval (can be overridden per block)
 
-[arch]
-command=~/.config/i3blocks/arch_version.sh
-interval=3600
-
+######################################
+#            System Usage            #
+######################################
 [sys]
-command=~/.config/i3blocks/sys_usage.sh
+command=~/.config/i3blocks/scripts/sys_usage.sh
 interval=5
+markup=pango
 
+######################################
+#             Volume                 #
+######################################
 [volume]
-command=~/.config/i3blocks/volume.sh
+command=~/.config/i3blocks/scripts/volume.sh
 interval=10
+markup=pango
+signal=10
 
+######################################
+#              Date                  #
+######################################
 [date]
-command=~/.config/i3blocks/date.sh
+command=~/.config/i3blocks/scripts/date.sh
 interval=60
-color=#00ff00
+color=#bc94fc
+markup=pango
 
+######################################
+#             Battery                #
+######################################
 [battery]
-command=~/.config/i3blocks/battery.sh
+command=~/.config/i3blocks/scripts/battery.sh
 interval=30
+markup=pango
+
+######################################
+#           Arch Version             #
+######################################
+#[arch]
+#command=~/.config/i3blocks/scripts/arch_version.sh
+#interval=3600
+#markup=pango
