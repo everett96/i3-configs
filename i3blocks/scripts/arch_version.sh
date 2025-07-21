@@ -9,10 +9,8 @@ fi
 # Get kernel version
 version=$(uname -r)
 
-bg="#44475a"         # A nice light grey/blue bubble
+bg="#44475a" # Bubble color
 fg="#1793d0"
-# Output as a full bubble
-# a subtle grey for the pill edges
+
 echo "<span foreground='$bg'></span><span background='$bg' foreground='$fg'> " Arch Linux v$version" </span><span foreground='$bg'></span>"
 # Output for i3blocks
-
