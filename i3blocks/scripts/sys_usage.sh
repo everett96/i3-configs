@@ -28,7 +28,6 @@ IDLE_DIFF=$((CURR_IDLE - PREV_IDLE))
 CPU_USAGE=$(awk "BEGIN { if ($TOTAL_DIFF > 0) printf \"%.1f\", 100 * ($TOTAL_DIFF - $IDLE_DIFF) / $TOTAL_DIFF; else print \"0.0\" }")
 
 # --- RAM Usage Calculation ---
-# --- RAM Usage Calculation (excludes cache/buffers) ---
 read total available <<< $(free -m | awk '/^Mem:/ {print $2, $7}')
 RAM_USAGE=$(( (total - available) * 100 / total ))
 
