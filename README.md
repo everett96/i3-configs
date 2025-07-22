@@ -1,5 +1,5 @@
 # i3-configs
-Various configuration files for i3 and i3blocks intended for Arch Linux systems. Scripts were designed with low power usage as a priority. The appearance adheres to the [Dracula](https://github.com/dracula/dracula-theme) color palette. I am not responsible for any consequences resulting from installing/running any of the packages or files listed/contained in this repository.
+Configuration files and scripts for i3 and i3blocks intended for Arch Linux systems. Scripts were designed with low power usage as a priority. The appearance adheres to the [Dracula](https://github.com/dracula/dracula-theme) color palette.
 
 ![Screenshot](result.png)
 
@@ -29,6 +29,7 @@ These may already be installed if you installed with the `i3` desktop profile:
 - `util-linux` – Includes `setsid`, used to launch apps cleanly
 - `ttf-font-awesome` – Icon glyphs
 - `ttf-nerd-fonts-symbols` or `ttf-nerd-fonts-symbols-mono` – For icons used in i3blocks
+- `ttf-fira-code` (or any Nerd Font) – Font used by default in i3/config
 
 ### Date/Time Utilities
 
@@ -38,7 +39,7 @@ These may already be installed if you installed with the `i3` desktop profile:
 ### Visual Utilities
 
 - `feh` – Wallpaper setting tool
-- `xwallpaper` or `nitrogen` – Alternative wallpaper managers (optional)
+- `xwallpaper` or `nitrogen` – Alternative wallpaper managers (optional, change in i3/config)
 
 ### Optional (Recommended, you will have to change the config if you don't use them)
 
