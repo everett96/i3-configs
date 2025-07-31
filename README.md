@@ -29,7 +29,7 @@ These may already be installed if you installed with the `i3` desktop profile:
 - `util-linux` – Includes `setsid`, used to launch apps cleanly
 - `ttf-font-awesome` – Icon glyphs
 - `ttf-nerd-fonts-symbols` or `ttf-nerd-fonts-symbols-mono` – For icons used in i3blocks
-- `ttf-fira-code` (or any Nerd Font) – Font used by default in i3/config
+- `ttf-firacode-nerd` (or any other font) – Font used by default in i3/config
 
 ### Date/Time Utilities
 
