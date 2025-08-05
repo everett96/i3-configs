@@ -9,6 +9,16 @@ separator_block_width=8
 interval=5   # Default interval (can be overridden per block)
 
 ######################################
+#       Active Window Listener       #
+######################################
+[active_window]
+command=cat /tmp/i3blocks_active_window
+interval=once
+separator=false
+signal=2
+markup=pango
+
+######################################
 #            System Usage            #
 ######################################
 [sys]
