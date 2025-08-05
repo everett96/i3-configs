@@ -10,6 +10,7 @@ font pango:FiraCode Nerd Font 12
 ###########################
 #   Autostart Utilities   #
 ###########################
+exec_always --no-startup-id ~/.config/i3blocks/scripts/active_window_listener.sh
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
@@ -146,6 +147,13 @@ client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
 client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
 client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
+
+# Disable titlebars for all windows
+for_window [class=".*"] border pixel 1
+
+# Remove titlebars (set border style to normal or pixel)
+new_window pixel 1
+new_float  pixel 1
 
 ###########################
 #         Bar             #
