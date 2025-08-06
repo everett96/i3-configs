@@ -10,7 +10,7 @@ font pango:FiraCode Nerd Font 12
 ###########################
 #   Autostart Utilities   #
 ###########################
-exec_always --no-startup-id ~/.config/i3blocks/scripts/active_window_listener.sh
+exec_always --no-startup-id ~/.config/i3blocks/scripts/active_window_listener.py
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
