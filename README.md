@@ -15,7 +15,7 @@ These may already be installed if you installed with the `i3` desktop profile:
 - `xorg` – X server
 - `xorg-xinit` – X session initializer
 - `xorg-xrandr` – Monitor and resolution control
-- `xterm` or `alacritty` – Terminal emulator (this setup uses `alacritty`)
+- `alacritty` (or your favorite terminal) – Terminal emulator
 
 ### i3blocks Script Dependencies
 
@@ -31,29 +31,15 @@ These may already be installed if you installed with the `i3` desktop profile:
 - `ttf-font-awesome` – Icon glyphs
 - `ttf-nerd-fonts-symbols` or `ttf-nerd-fonts-symbols-mono` – For icons used in i3blocks
 - `ttf-firacode-nerd` (or any other font) – Font used by default in i3/config
-
-### Date/Time Utilities
-
-- `coreutils` – Provides `date`
 - `tzdata` – Timezone data
 
-### Visual Utilities
+### Optional (Recommended / Used in Config)
 
-- `feh` – Wallpaper setting tool
-- `xwallpaper` or `nitrogen` – Alternative wallpaper managers (optional, change in i3/config)
-
-### Optional (Recommended, you will have to change the config if you don't use them)
-
-- `alacritty` – Terminal emulator
 - `thunar` – Lightweight file manager
 - `flameshot` – Screenshot tool
 - `xdg-desktop-portal` – Integration layer for non-DE apps
 - `xdg-utils` – For opening URLs and files
-
-### Fonts & Theming
-
-- `ttf-font-awesome` – Icon font
-- `ttf-nerd-fonts-symbols` or `ttf-nerd-fonts-symbols-mono` – Extended icons
+- `feh` – Wallpaper setting tool
 - `lxappearance` – GTK theme configurator
 
 ## License
