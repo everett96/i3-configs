@@ -5,7 +5,7 @@ Configuration files and scripts for i3 and i3blocks intended for Arch Linux syst
 
 ## Required Packages (for Arch Linux)
 
-These are the packages needed to run the i3blocks setup and scripts correctly on a fresh Arch Linux install using `archinstall` with i3 selected.
+These are the pacman packages needed to run the i3blocks setup and scripts correctly on a fresh Arch Linux install using `archinstall` with i3 selected. No AUR packages are required. 
 
 ### Core Requirements
 These may already be installed if you installed with the `i3` desktop profile:
@@ -24,6 +24,7 @@ These may already be installed if you installed with the `i3` desktop profile:
 - `htop` – System monitor
 - `calcurse` – Terminal-based calendar
 - `procps-ng` – Provides `free` and other memory tools
+- `python-xlib` - Required for window listener
 - `coreutils` – Shell utilities (e.g., `date`)
 - `bash` – Required for running shell scripts
 - `util-linux` – Includes `setsid`, used to launch apps cleanly
