@@ -12,7 +12,7 @@ interval=5   # Default interval (can be overridden per block)
 #       Active Window Listener       #
 ######################################
 [active_window]
-command=cat /tmp/i3blocks_active_window
+command=cat $XDG_RUNTIME_DIR/i3blocks_active_window
 interval=once
 separator=false
 signal=2
